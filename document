@@ -1,0 +1,12 @@
+Plugin Name: scroll to top
+Plugin URI: https://github.com/sadeq-yaqobi/WP-plugin-scrollToTop/
+Description: پلاگین اسکرول به بالای صفحه
+Author: Sadeq Yaqobi
+Version: 1.0.0
+License: GPLv2 or later
+Author URI:https://github.com/sadeq-yaqobi/
+
+Installation and Usage:
+After activating the plugin, just you need to copy bellow code into footer.php file.
+بعد نصب پلاگین کد زیر را در فایل footer.php کپی نمایید.
+<?php echo do_shortcode('[scroll-to-top]')?>

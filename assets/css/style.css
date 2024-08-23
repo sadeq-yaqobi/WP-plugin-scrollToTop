@@ -1,0 +1,22 @@
+#back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 50%;
+    text-decoration: none;
+    background: #333c56;
+    color: #fff;
+    transition: all .8s;
+}
+
+#back2Top:hover {
+    transform: translateY(-5px);
+}
